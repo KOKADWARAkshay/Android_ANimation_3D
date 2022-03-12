@@ -48,7 +48,7 @@ For editing model
 
 - [@KOKADWARAkshay](https://github.com/KOKADWARAkshay)
 
-Anyone can use this repositories.
+Anyone can use this repositorie.
 
 If you like my work and wanna say thank you, 
 then you can buy me a coffee 
