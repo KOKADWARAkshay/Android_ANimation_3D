@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "516164491306",
+    "project_id": "android-3d",
+    "storage_bucket": "android-3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516164491306:android:d1c098a3f173e4f3a04b53",
+        "android_client_info": {
+          "package_name": "com.example.androidanimation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516164491306-vsartub77i7kh6e2k479otpkiuivqehd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbOKvwn7qlNRSVhxnL2wRXp2zB_wwBFdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516164491306-vsartub77i7kh6e2k479otpkiuivqehd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

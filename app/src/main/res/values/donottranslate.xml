@@ -1,0 +1,10 @@
+<resources>
+    <string name="model_url">https://arvr.google.com/scene-viewer/1.0?file=https://cdn.glitch.global/65798a0d-2bcb-4480-9ebd-3568a159b9b0/Corset.glb?v=1647107307060/models/artwork/187.1.glb</string>
+    <string name="scene_viewer_package">com.google.android.googlequicksearchbox</string>
+    <string name="model_viewer_location">file:///android_asset/modelViewer.html</string>
+    <string name="model_viewer_horse">file:///android_asset/horse.html</string>
+    <string name="model_viewer_bottle">file:///android_asset/bottolo.html</string>
+    <string name="model_viewer_robot">file:///android_asset/Robot.html</string>
+    <string name="model_brain">file:///android_asset/model.html</string>
+
+</resources>

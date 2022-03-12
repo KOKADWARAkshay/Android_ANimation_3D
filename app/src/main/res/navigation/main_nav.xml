@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.androidanimation.ui.home.HomeFragment"
+        android:label="ModelViewerFragment" >
+        <action
+            android:id="@+id/action_modelViewerFragment_to_modelViewerFragment"
+            app:destination="@id/modelViewerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_horseFragment"
+            app:destination="@id/horseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_robotFragment"
+            app:destination="@id/robotFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_viewerFragment"
+            app:destination="@id/viewerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/modelViewerFragment"
+        android:name="com.example.androidanimation.ui.modelviewer.ModelViewerFragment"
+        android:label="ModelViewerFragment" />
+    <fragment
+        android:id="@+id/horseFragment"
+        android:name="com.example.androidanimation.ui.modelviewer.HorseFragment"
+        android:label="HorseFragment" />
+    <fragment
+        android:id="@+id/robotFragment"
+        android:name="com.example.androidanimation.ui.modelviewer.RobotFragment"
+        android:label="fragment_robot"
+        tools:layout="@layout/fragment_robot" />
+    <fragment
+        android:id="@+id/viewerFragment"
+        android:name="com.example.androidanimation.ui.modelviewer.ViewerFragment"
+        android:label="ViewerFragment" />
+
+</navigation>
